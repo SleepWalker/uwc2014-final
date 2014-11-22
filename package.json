@@ -1,0 +1,11 @@
+{
+  "name": "UWC_Frontend_Mid_Sen_JS_Final",
+  "version": "0.0.1",
+  "description": "mnemosyne — contacts managing app",
+  "author": "Sviatoslav Danylenko <dev@udf.su>",
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "browserify-shim": "src/shim.js"
+}
