@@ -1,0 +1,14 @@
+html,
+body {
+    height: 100%;
+}
+
+.columns {
+    @include display-flex;
+    @include justify-content(space-between);
+}
+
+.col--half {
+    @include flex-grow(1);
+    width: 50%;
+}

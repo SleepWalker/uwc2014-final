@@ -1,8 +1,6 @@
 # Require any additional compass plugins here.
 require 'breakpoint'
-require 'singularitygs'
-
-add_import_path '../bower_components/foundation/scss'
+require 'normalize-scss'
 
 # Set this to the root of your project when deployed:
 http_path = "../"

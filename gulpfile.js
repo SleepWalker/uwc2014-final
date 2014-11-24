@@ -2,8 +2,8 @@ var tasks = {
     'compass': {
         // loadPath: "bower_components/foundation/scss"
     },
-    'imagemin': {},
-    'fonts': {},
+    // 'imagemin': {},
+    // 'fonts': {},
     'browserify': {},
     'browsersync': {
         // 'host': 'example.com',
@@ -14,7 +14,7 @@ var tasks = {
     'mocha-browserify': {},
     };
 
-var gulp = require('gulp')(tasks);
+var gulp = require('./gulp')(tasks);
 gulp.task('default', [
     'browsersync',
     'browserify',

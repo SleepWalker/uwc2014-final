@@ -1,0 +1,20 @@
+<div class="graph__toolbar">
+    <form class="form js-form">
+        <div class="form__row">
+            <input required name="title" type="text" placeholer="Name" value="{{title}}">
+        </div>
+        <div class="form__row">
+            <textarea name="description" placeholder="Description" value="{{description}}"></textarea>
+        </div>
+        <div class="form__row">
+            <label class="input__label">Action:
+                <select name="type" class="js-types"></select>
+            </label>
+        </div>
+        <div class="form__actions">
+            <button class="btn js-add">Add</button>
+        </div>
+    </form>
+    <button type="button" class="btn js-remove">remove</button>
+</div>
+<div class="graph js-graph"></div>
